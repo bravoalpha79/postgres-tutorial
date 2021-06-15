@@ -55,7 +55,7 @@ with db.connect() as connection:
     # # Query 5 - Select only the albums with ArtistId #51 from the Album table
     # select_query = album_table.select().where(album_table.c.ArtistId == 51)
 
-    # Query 5 - Select all Tracks where the composer is Queen from the Album table
+    # Query 6 - Select all Tracks where the composer is Queen from the Album table
     select_query = track_table.select().where(track_table.c.Composer == "Queen")
 
 
